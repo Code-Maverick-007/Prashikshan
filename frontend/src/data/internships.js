@@ -10,7 +10,7 @@ import tcsLogo from './img/tcs logo.png';
 import unicefLogo from './img/unicef logo.jpg';
 
 export const mockInternships = [
-  // --- Existing 9 Entries ---
+  // --- Existing 9 Entries with Apply Links ---
   { 
     id: 1, 
     title: 'Digital India Internship Scheme', 
@@ -25,7 +25,7 @@ export const mockInternships = [
     skills: ['Policy Research', 'Data Analysis', 'Documentation'], 
     duration: '2 months', 
     description: 'An opportunity to work with the Ministry of Electronics and Information Technology on key Digital India initiatives.', 
-    applyLink: '#'
+    applyLink: 'https://www.meity.gov.in/digital-india-internship-scheme'
   },
   { 
     id: 2, 
@@ -41,7 +41,7 @@ export const mockInternships = [
     skills: ['Machine Learning', 'Python', 'TensorFlow', 'Research'], 
     duration: '6 months', 
     description: 'Contribute to IBM\'s leading AI research projects, working on novel algorithms and models.', 
-    applyLink: '#'
+    applyLink: 'https://www.ibm.com/in-en/employment/internship'
   },
   { 
     id: 3, 
@@ -57,7 +57,7 @@ export const mockInternships = [
     skills: ['Java', 'SQL', 'SDLC', 'Problem Solving'], 
     duration: '3 months', 
     description: 'Part of the Infosys Instep internship program, working on real-world client projects and software development.', 
-    applyLink: '#'
+    applyLink: 'https://www.infosys.com/careers/instep.html'
   },
   { 
     id: 4, 
@@ -73,7 +73,7 @@ export const mockInternships = [
     skills: ['React', 'Node.js', 'MongoDB', 'Web Development'], 
     duration: '3 months', 
     description: 'Flexible remote internships in web development, perfect for students to gain practical skills.', 
-    applyLink: '#'
+    applyLink: 'https://internshala.com/internships/web-development-internship'
   },
   { 
     id: 5, 
@@ -89,9 +89,8 @@ export const mockInternships = [
     skills: ['Aerodynamics', 'MATLAB', 'CFD', 'Physics'], 
     duration: '4 months', 
     description: 'Participate in a virtual NASA internship program, contributing to ongoing aerospace research and data analysis projects.', 
-    applyLink: '#'
+    applyLink: 'https://intern.nasa.gov/'
   },
-  
   { 
     id: 7, 
     title: 'Wireless R&D Intern (5G)', 
@@ -106,7 +105,7 @@ export const mockInternships = [
     skills: ['C++', 'Wireless Communication', '5G', 'LTE'], 
     duration: '6 months', 
     description: 'Join the world leader in wireless technology to work on the future of 5G and beyond.', 
-    applyLink: '#'
+    applyLink: 'https://www.qualcomm.com/company/careers/interns'
   },
   { 
     id: 8, 
@@ -122,7 +121,7 @@ export const mockInternships = [
     skills: ['Java', 'Spring Boot', 'Angular', 'SQL'], 
     duration: '4 months', 
     description: 'Gain experience in a large-scale enterprise environment, working on diverse software projects for global clients.', 
-    applyLink: '#'
+    applyLink: 'https://www.tcs.com/careers/india/internships'
   },
   { 
     id: 9, 
@@ -138,10 +137,10 @@ export const mockInternships = [
     skills: ['Data Analysis', 'R', 'Statistics', 'Tableau'], 
     duration: '3 months', 
     description: 'Use your data analysis skills to contribute to UNICEF projects that aim to improve the lives of children worldwide.', 
-    applyLink: '#'
+    applyLink: 'https://www.unicef.org/careers/internships'
   },
   
-  // --- 10 NEW ENTRIES (Renumbered to start from 10) ---
+  // --- 10 NEW ENTRIES with Apply Links ---
   { 
     id: 10,
     title: 'Software Engineering Intern', 
@@ -156,7 +155,7 @@ export const mockInternships = [
     skills: ['Data Structures', 'Algorithms', 'C++', 'Python'], 
     duration: '3 months', 
     description: 'Join the Google STEP program to work on core products and services. Open to 2nd year students.', 
-    applyLink: '#'
+    applyLink: 'https://careers.google.com/jobs/results/?degree=BACHELORS&employment_type=INTERN'
   },
   { 
     id: 11,
@@ -172,7 +171,7 @@ export const mockInternships = [
     skills: ['Cloud Computing', 'Networking', 'Linux', 'AWS'], 
     duration: '6 months', 
     description: 'Provide technical support to AWS customers, helping them resolve complex cloud infrastructure issues.', 
-    applyLink: '#'
+    applyLink: 'https://www.amazon.jobs/en/job_categories/student-programs'
   },
   { 
     id: 12,
@@ -188,7 +187,7 @@ export const mockInternships = [
     skills: ['Machine Learning', 'Research', 'PyTorch', 'Academic Writing'], 
     duration: '6 months', 
     description: 'Collaborate with world-class researchers on cutting-edge projects in artificial intelligence and systems.', 
-    applyLink: '#'
+    applyLink: 'https://www.microsoft.com/en-us/research/careers/fellowship/'
   },
   { 
     id: 13,
@@ -204,7 +203,7 @@ export const mockInternships = [
     skills: ['UI/UX Design', 'Figma', 'Prototyping', 'User Research'], 
     duration: '4 months', 
     description: 'Design intuitive and delightful user experiences for one of India\'s leading food delivery platforms.', 
-    applyLink: '#'
+    applyLink: 'https://www.zomato.com/careers'
   },
   { 
     id: 14,
@@ -220,7 +219,7 @@ export const mockInternships = [
     skills: ['SQL', 'Tableau', 'Excel', 'Data Analysis', 'Python'], 
     duration: '6 months', 
     description: 'Analyze user behavior, logistics data, and market trends to derive actionable insights for Swiggy\'s operations.', 
-    applyLink: '#'
+    applyLink: 'https://careers.swiggy.com/#/jobs'
   },
   { 
     id: 15,
@@ -236,7 +235,7 @@ export const mockInternships = [
     skills: ['Java', 'Data Structures', 'Backend', 'System Design'], 
     duration: '2 months', 
     description: 'Work in a fast-paced e-commerce environment, building scalable backend systems and services.', 
-    applyLink: '#'
+    applyLink: 'https://www.flipkartcareers.com/#!/joblist'
   },
   { 
     id: 16,
@@ -252,7 +251,7 @@ export const mockInternships = [
     skills: ['Networking', 'TCP/IP', 'Routing', 'Switching'], 
     duration: '6 months', 
     description: 'Get hands-on experience with one of the largest telecom networks in the world.', 
-    applyLink: '#'
+    applyLink: 'https://careers.jio.com/'
   },
   { 
     id: 17,
@@ -268,7 +267,7 @@ export const mockInternships = [
     skills: ['Figma', 'Adobe XD', 'User Research', 'Prototyping'], 
     duration: '3 months', 
     description: 'Join the Adobe Design team to work on creative tools used by millions of professionals worldwide.', 
-    applyLink: '#'
+    applyLink: 'https://careers.adobe.com/us/en/students-and-graduates'
   },
   { 
     id: 18,
@@ -284,7 +283,7 @@ export const mockInternships = [
     skills: ['Java', 'Python', 'Financial Markets', 'Algorithms'], 
     duration: '3 months', 
     description: 'Develop and support the software that powers global financial markets. A high-impact role for quantitative minds.', 
-    applyLink: '#'
+    applyLink: 'https://www.goldmansachs.com/careers/students/programs/india/summer-analyst-programme.html'
   },
   { 
     id: 19,
@@ -300,6 +299,6 @@ export const mockInternships = [
     skills: ['SQL', 'Oracle DB', 'Database Administration', 'PL/SQL'], 
     duration: '6 months', 
     description: 'Learn to manage and optimize large-scale Oracle databases in a remote, flexible environment.', 
-    applyLink: '#'
+    applyLink: 'https://www.oracle.com/corporate/careers/university/internships/'
   }
 ];
